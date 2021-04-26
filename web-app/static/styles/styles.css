@@ -46,3 +46,10 @@ float: right;
 #submit{
   color: #4CAF50
 }
+
+.text-center {
+    text-align: center!important;
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+}
