@@ -49,7 +49,7 @@ float: right;
 
 .text-center {
     text-align: center!important;
-    width: fit-content;
-    padding: 20px;
-    margin: auto;
+    width: fit-content!important;
+    padding: 20px!important;
+    margin: auto!important;
 }
