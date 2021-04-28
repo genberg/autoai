@@ -58,3 +58,5 @@ input {
     float: right !important;
     margin-left: 40px !important;
 }
+
+@media (max-width 768px) {input {width: 35% !important;}}
