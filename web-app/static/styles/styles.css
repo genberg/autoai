@@ -53,3 +53,8 @@ float: right;
     padding: 20px!important;
     margin: auto!important;
 }
+
+input {
+    float: right !important;
+    margin-left: 40px !important;
+}
