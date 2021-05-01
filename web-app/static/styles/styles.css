@@ -1,15 +1,15 @@
 body {
-  background-color: #d2deed;
+  background-color: #accffe!important;
+  background: url(https://www.dadberg.com/wp-content/uploads/2021/05/autoai.png)!important;
+    background-size: cover!important;
+    background-position: center!important;
+  
 }
 
 #age{
   margin-top: 10px;
 }
 
-#text-center{
-  border-style: solid;
-  color: #757575;
-}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -34,7 +34,7 @@ color: black;
 
 /* Add a color to the active/current link */
 .topnav a.active {
-background-color: #4CAF50;
+background-color: #a24593;
 color: white;
 }
 
@@ -44,19 +44,25 @@ float: right;
 }
 
 #submit{
-  color: #4CAF50
+  color: #11635f
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 12%), 0px 1px 3px 0px rgb(0 0 0 / 12%), 0px 1px 3px 0px rgb(0 0 0 / 12%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    margin-bottom: 0px;
 }
-
-.text-center {
-    text-align: center!important;
-    width: fit-content!important;
-    padding: 20px!important;
-    margin: auto!important;
 }
 
 input {
     float: right !important;
     margin-left: 40px !important;
+    max-width: 45% !important;
 }
 
 @media (max-width 768px) {input {width: 35% !important;}}
+
+label {
+    color: #093b40 !important;
+    font-weight: 500 !important;
+    float: left !important;
+}
